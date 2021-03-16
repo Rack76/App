@@ -15,7 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="App.cpp">
+    <ClInclude Include="Logic\ObjectShifter\ObjectShifter.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic\ObjectShifter\TestObjectShifter.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Logic\ObjectShifter\ObjectShifter.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\ObjectShifter\TestObjectShifter.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>

@@ -18,6 +18,14 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Logic\ObjectShifter\ObjectShifter.h" />
+    <ClInclude Include="Logic\ObjectShifter\TestObjectShifter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Logic\ObjectShifter\ObjectShifter.cpp" />
+    <ClCompile Include="Logic\ObjectShifter\TestObjectShifter.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,9 +146,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="App.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
