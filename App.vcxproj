@@ -22,7 +22,9 @@
     <ClCompile Include="Src\Components\Gameplay Foundations\Systems\Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Src\Blueprints\Component\Component.h" />
     <ClInclude Include="Src\Blueprints\Object\Object.h" />
+    <ClInclude Include="Src\Blueprints\System\System.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -34,7 +36,7 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
