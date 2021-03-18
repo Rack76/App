@@ -29,5 +29,8 @@
     <ClInclude Include="Src\Blueprints\System\System.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
+    <ClInclude Include="Src\Layers\Layer1\SystemList.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

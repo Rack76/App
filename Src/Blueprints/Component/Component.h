@@ -2,6 +2,7 @@
 
 class Component
 {
-private:
-	SystemList sysList;
+public:
+
+	virtual void process() = 0;
 };

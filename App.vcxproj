@@ -25,6 +25,7 @@
     <ClInclude Include="Src\Blueprints\Component\Component.h" />
     <ClInclude Include="Src\Blueprints\Object\Object.h" />
     <ClInclude Include="Src\Blueprints\System\System.h" />
+    <ClInclude Include="Src\Layers\Layer1\SystemList.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

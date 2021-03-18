@@ -2,5 +2,6 @@
 
 class System
 {
-	
+public:
+	void process(Object* object ...);
 };
