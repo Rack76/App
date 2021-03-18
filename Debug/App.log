@@ -1,5 +1,0 @@
-﻿  ObjectShifter.cpp
-  TestObjectShifter.cpp
-  Génération de code en cours...
-MSVCRTD.lib(exe_main.obj) : error LNK2019: symbole externe non résolu _main référencé dans la fonction "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
-C:\Users\Utilisateur\Documents\GitHub\App\Debug\App.exe : fatal error LNK1120: 1 externes non résolus

@@ -19,12 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Logic\ObjectShifter\ObjectShifter.h" />
-    <ClInclude Include="Logic\ObjectShifter\TestObjectShifter.h" />
+    <ClCompile Include="Src\Components\Gameplay Foundations\Systems\Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Logic\ObjectShifter\ObjectShifter.cpp" />
-    <ClCompile Include="Logic\ObjectShifter\TestObjectShifter.cpp" />
+    <ClInclude Include="Src\Blueprints\Object\Object.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

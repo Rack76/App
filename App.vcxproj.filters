@@ -15,19 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Logic\ObjectShifter\ObjectShifter.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="Logic\ObjectShifter\TestObjectShifter.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
+    <ClCompile Include="Src\Components\Gameplay Foundations\Systems\Source.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Logic\ObjectShifter\ObjectShifter.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Logic\ObjectShifter\TestObjectShifter.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
+    <ClInclude Include="Src\Blueprints\Object\Object.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
